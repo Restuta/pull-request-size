@@ -26,7 +26,7 @@ const sizes = {
   M: 100,
   L: 500,
   Xl: 1000,
-  Xxl: 000
+  Xxl: 2000
 }
 
 
