@@ -23,10 +23,10 @@ const colors = {
 
 const sizes = {
   S: 10,
-  M: 30,
-  L: 100,
-  Xl: 500,
-  Xxl: 1000
+  M: 100,
+  L: 500,
+  Xl: 1000,
+  Xxl: 000
 }
 
 
@@ -153,7 +153,7 @@ module.exports = app => {
     })
 
     // calculate GitHub label
-    var labelToAdd = sizeLabel(additions + deletions)
+    var labelToAdd = sizeLabel(additions + deletions / 10)
 
     // remove existing size/<size> label if it exists and is not labelToAdd
     pullRequest.labels.forEach(function(prLabel) {
