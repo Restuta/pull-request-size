@@ -14,10 +14,10 @@ const label = {
 
 const colors = {
   'size/XS': '3CBF00',
-  'size/S': '5D9801',
-  'size/M': '7F7203',
-  'size/L': 'A14C05',
-  'size/XL': 'C32607',
+  'size/S': '42b71b',
+  'size/M': '1d76db',
+  'size/L': 'fbca04',
+  'size/XL': 'FF8C00',
   'size/XXL': 'E50009'
 }
 
